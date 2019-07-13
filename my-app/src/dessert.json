@@ -1,51 +1,51 @@
 [
     {
       "id": 1,
-      "image": "dessert1.jpg"
+      "image": "./src/images/dessert1.jpg"
     },
     {
       "id": 2,
-      "image": "dessert2.jpg"    
+      "image": "https://www.browneyedbaker.com/wp-content/uploads/2016/03/banana-split-dessert-44-800.jpg"    
     },
     {
       "id": 3,
-      "image": "dessert3.jpg"
+      "image": "./images/dessert3.jpg"
     },
     {
       "id": 4,
-      "image": "dessert4.jpg" 
+      "image": "/images/dessert4.jpg" 
     },
     {
       "id": 5,
-      "image": "dessert5.jpg"
+      "image": "/images/dessert5.jpg"
     },
     {
       "id": 6,
-      "image": "dessert6.jpg"
+      "image": "/images/dessert6.jpg"
     },
     {
       "id": 7,
-      "image": "dessert7.jpg"
+      "image": "/images/dessert7.jpg"
     },
     {
       "id": 8,
-      "image": "dessert8.jpg"
+      "image": "/images/dessert8.jpg"
     },
     {
       "id": 9,
-      "image": "dessert9.jpg"
+      "image": "/images/dessert9.jpg"
     },
     {
       "id": 10,
-      "image": "dessert10.jpg"
+      "image": "/images/dessert10.jpg"
     },
     {
       "id": 11,
-      "image": "dessert11.jpg"
+      "image": "/images/dessert11.jpg"
     },
     {
       "id": 12,
-      "image": "dessert12.jpg"
+      "image": "/images/dessert12.jpg"
     }
   ]
   

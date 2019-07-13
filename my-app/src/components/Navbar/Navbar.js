@@ -1,14 +1,19 @@
-import React from "react";
-import "./Navbar.css";
+// sets up the reusable Navbar component
+import React, { Component } from 'react'
+import './Navbar.css'
 
-function Navbar() {
-  return (
-    <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">
-        React Recipes
-      </a>
-    </nav>
-  );
+class Navbar extends Component {
+  render () {
+    return (
+      <nav className='navbar navbar-default navbar-fixed-top'>
+        <ul>
+          <li className='itemLeft'>Pick a Dessert</li>
+          <li className='itemCenter' />
+          <li className='itemRight'>Score: {this.props.score}</li>
+        </ul>
+      </nav>
+    )
+  }
 }
 
-export default Navbar;
+export default Navbar
