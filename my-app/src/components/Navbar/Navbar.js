@@ -6,10 +6,9 @@ class Navbar extends Component {
   render () {
     return (
       <nav className='navbar navbar-default navbar-fixed-top'>
-        <ul>
-          <li className='itemCenter'>Top Score: 0</li>
-          <li className='itemRight'>Score: {this.props.score}</li>
-        </ul>
+        <div className="score">
+          <p3>Your Score: {this.props.score}</p3>
+        </div>
       </nav>
     )
   }
